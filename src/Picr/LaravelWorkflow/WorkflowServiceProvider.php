@@ -72,7 +72,7 @@ class WorkflowServiceProvider extends ServiceProvider
                 }
             }
 
-            return new $registry;
+            return $registry;
         });
     }
 
