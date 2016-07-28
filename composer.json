@@ -4,7 +4,9 @@
     "keywords": ["workflow", "petri net", "laravel", "laravel5"],
     "license": "MIT",
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "symfony/workflow": "^3.2@dev",
+        "symfony/property-access": "^3.2@dev"
     },
     "autoload": {
         "psr-0": {
